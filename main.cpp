@@ -2,12 +2,7 @@
 #include "ByteGenerator.h"
 #include "PackFrameProcessor.h"
 
-int main(int argc, char** argv) {
-
-    std::string path = "bytes";
-
-    if(argc == 2)
-        path = argv[1];
+int main() {
 
     ByteGenerator byteGenerator;
     PackFrameProcessor packFrameProcessor;
